@@ -25,9 +25,10 @@ background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
     -moz-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    border-radius: 50px;
-    background: #fafafa;
-    box-shadow:  34px 34px 67px #d5d5d5,
-             -34px -34px 67px #ffffff;
+    
+    border-radius: 35px;
+background: #fafafa;
+box-shadow:  16px 16px 32px #d5d5d5,
+             -16px -16px 32px #ffffff;
     
 }
