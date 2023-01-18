@@ -11,15 +11,10 @@ PAZIENTI
   ID (ricovero)
   Nome
   Cognome
+  Data ricovero
   Prezzo acquisto
   Prezzo vendita (se valorizzato pz dimesso, se = 0 deceduto)
   Valore attuale
-
-TRANSAZIONI
-  ID_Infermiere
-  ID_Paziente
-  Timestamp
-  Valore (> o < di 0 se bonus o malus)
 
 PRESTAZIONI
   ID
