@@ -15,8 +15,8 @@ if (isset($_POST['login'])) {
         $msg = 'Inserisci username e password %s';
     } else {
         $query = "
-            SELECT username, password
-            FROM users
+            SELECT ID, Password
+            FROM infermieri
             WHERE username = :username
         ";
         
