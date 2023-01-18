@@ -1,0 +1,32 @@
+INFERMIERI
+  ID (matricola)
+  Nome
+  Cognome
+  Portafoglio
+  Email
+  Password
+  Permessi
+  
+PAZIENTI
+  ID (ricovero)
+  Nome
+  Cognome
+  Prezzo acquisto
+  Prezzo vendita (se valorizzato pz dimesso, se = 0 deceduto)
+  Valore attuale
+
+TRANSAZIONI
+  ID_Infermiere
+  ID_Paziente
+  Timestamp
+  Valore (> o < di 0 se bonus o malus)
+
+PRESTAZIONI
+  ID
+  Descrizione
+  Valore
+
+EVENTI
+  ID_Paziente
+  ID_Prestazione
+  Timestamp
