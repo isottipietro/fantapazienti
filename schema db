@@ -23,6 +23,7 @@ TRANSAZIONI
 
 PRESTAZIONI
   ID
+  Nome
   Descrizione
   Valore
 
@@ -30,3 +31,9 @@ EVENTI
   ID_Paziente
   ID_Prestazione
   Timestamp
+
+ASTA
+  ID_Paziente
+  Timestamp ultima offerta
+  ID_Infermiere
+  Valore
