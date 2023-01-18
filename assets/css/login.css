@@ -28,7 +28,6 @@ background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
     
     border-radius: 35px;
 background: #fafafa;
-box-shadow:  16px 16px 32px #d5d5d5,
-             -16px -16px 32px #ffffff;
+box-shadow:  9px 9px 17px 6px #2e2e2e87;
     
 }
