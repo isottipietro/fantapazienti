@@ -1,13 +1,17 @@
 Tomografia
+Il paziente è stato trasportato in radiologia per una tomografia assiale computerizzata
 +3
 
 Tomografia notturna
+Il paziente è stato trasportato in radiologia per una tomografia assiale computerizzata, di notte!
 +5
 
 Tomografia notturna plus
+Il paziente è stato trasportato in radiologia per una tomografia assiale computerizzata, di notte, e per colpa di un medico poco propenso a fare TC notturne!
 +8
 
 Fibroscopia
+Il paziente è stato sottoposto al lavaggio bronchiale e qualcuno ha tenuto il tubo in mano per mezz'ora
 +1,5
 
 Elettroencefalogramma
@@ -100,7 +104,7 @@ ACC
 SwanGanz o picco
 +2
 
-Isolamento
+Isolamento**
 +3
 
 Reintubazione
@@ -138,3 +142,9 @@ Padella**
 
 Miele rosato**
 -0,5
+
+IAP
+
+Pesare le garze
+
+
