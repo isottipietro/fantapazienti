@@ -2,9 +2,9 @@
 $config = [
     'db_engine' => 'mysql',
     'db_host' => '127.0.0.1',
-    'db_name' => '',
-    'db_user' => '',
-    'db_password' => '',
+    'db_name' => 'fantapazienti',
+    'db_user' => 'fantapz',
+    'db_password' => 'sxdL7f7x5Jh5vxDW',
 ];
 
 $db_config = $config['db_engine'] . ":host=".$config['db_host'] . ";dbname=" . $config['db_name'];
