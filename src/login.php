@@ -1,9 +1,9 @@
 <?php
 session_start();
-require_once('/src/database.php');
+require_once('database.php');
 
 if (isset($_SESSION['session_id'])) {
-    header('Location: /index.php');
+    header('Location: ../index.php');
     exit;
 }
 
@@ -33,7 +33,7 @@ if (isset($_POST['login'])) {
             $_SESSION['session_id'] = session_id();
             $_SESSION['session_user'] = $user['username'];
             
-            header('Location: /index.php');
+            header('Location: ../index.php');
             exit;
         }
     }
