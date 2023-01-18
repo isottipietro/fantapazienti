@@ -19,3 +19,4 @@ try {
 } catch (PDOException $e) {
     exit("Impossibile connettersi al database: " . $e->getMessage());
 }
+?>
