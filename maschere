@@ -1,15 +1,14 @@
- ASTA
- 
- INSERIMENTO EVENTI
+DASHBOARD
+    STATO REPARTO
+    Filtro per pazienti senza prezzo vendita in ordine di valore attuale, differenza prezzo acquisto e valore attuale
+
+    CLASSIFICA
+    Filtro per portafoglio
+
+INSERIMENTO EVENTI
  Seleziona paziente da elenco e seleziona eventi (data precompilata)
  
- CLASSIFICA INFERMIERI
- Filtro per portafoglio
+INSERIMENTO NUOVO PAZIENTE
  
- STATO REPARTO
- Filtro per pazienti senza prezzo vendita in ordine di valore attuale, differenza prezzo acquisto e valore attuale
- 
- INSERIMENTO NUOVO PAZIENTE
- 
- 
- INSERIMENTO NUOVO INFERMIERE (?)
+INSERIMENTO NUOVO INFERMIERE (?)
+ASTA

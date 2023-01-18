@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <?php include 'etc/settings.inc'; ?>
-	<title><?php echo $site_title; ?></title>
-	<link rel="stylesheet" type="text/css" href="assets/css/login.css">
+	<title>Accesso a Fantapazienti</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/welcome.css">
 </head>
 <body>
-<div class="box">
-<p><img src="assets/images/logo.png" style="width: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;">
-    <form action="action_page.php" method="post">
-  <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-<br />
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit">Login</button>
+  <div class="box">
+    <img src="assets/images/logo.png" style="width: 70px; margin-left: auto; margin-right: auto; display: block;">
+    <form action="src/login.php" method="post">
+      <div class="container">
+        <label for="uname"><b>Matricola</b></label>
+        <input type="text" placeholder="Inserisci la tua matricola" name="uname" required>
+        <br />
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Inserisci la tua password" name="psw" required>
+        <button type="submit">Accedi</button>
+      </div>
+    </form>
   </div>
-</form>
-</div>
+
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
 		xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
 		<defs>
