@@ -9,11 +9,11 @@
     <img src="assets/images/logo.png" style="width: 70px; margin-left: auto; margin-right: auto; display: block;">
     <form action="src/login.php" method="post">
       <div class="container">
-        <label for="uname"><b>Matricola</b></label>
-        <input type="text" placeholder="Inserisci la tua matricola" name="uname" required>
+        <label for="username"><b>Matricola</b></label>
+        <input type="text" placeholder="Inserisci la tua matricola" name="username" required>
         <br />
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Inserisci la tua password" name="psw" required>
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Inserisci la tua password" name="password" required>
         <button type="submit">Accedi</button>
       </div>
     </form>
