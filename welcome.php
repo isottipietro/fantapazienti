@@ -14,7 +14,7 @@
         <br />
         <label for="password"><b>Password</b></label>
         <input type="password" placeholder="Inserisci la tua password" name="password" required>
-        <button type="submit">Accedi</button>
+        <button type="submit" name="login">Accedi</button>
       </div>
     </form>
   </div>
