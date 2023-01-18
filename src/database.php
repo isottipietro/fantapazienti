@@ -1,7 +1,7 @@
 <?php
 $config = [
     'db_engine' => 'mysql',
-    'db_host' => '127.0.0.1',
+    'db_host' => 'localhost',
     'db_name' => 'fantapazienti',
     'db_user' => 'fantapz',
     'db_password' => 'sxdL7f7x5Jh5vxDW',
