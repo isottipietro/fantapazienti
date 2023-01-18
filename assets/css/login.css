@@ -13,3 +13,10 @@ height: 100%;
     background-color: #0e4166;
 background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
 }
+
+box {
+    border-radius: 50px;
+    background: #fafafa;
+    box-shadow:  34px 34px 67px #d5d5d5,
+             -34px -34px 67px #ffffff;
+}
