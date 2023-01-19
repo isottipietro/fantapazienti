@@ -5,7 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/welcome.css">
 </head>
 <body>
-<?php if (isset($_SESSION['session_id'])) {
+<?php 
+session_start();
+if (isset($_SESSION['session_id'])) {
     header('Location: /dashboard.php');
 } ?>
   <div class="box">
