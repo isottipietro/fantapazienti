@@ -29,11 +29,10 @@
 	<div id="wrapper">
 		<?php include 'src/header.php'; ?>
 	<div id="nav">
-		<button class="tablink" onclick="openPage('Singola', this, 'green')" id="defaultOpen">Etichetta Singola</button>
-		<button class="tablink" onclick="openPage('Intubazione', this, 'green')">Intubazione</button>
-		<button class="tablink" onclick="openPage('About', this, 'blue')">Istruzioni</button>
-		<button class="tablink" onclick="openPage('Registry', this, 'blue')">Anagrafiche</button>
-		<button class="tablink urg" onclick="window.open('/printer.php?set=urgent')">Urgenza!</button>
+		<button class="tablink" onclick="openPage('Singola', this, 'green')" id="defaultOpen">Classifica</button>
+		<button class="tablink" onclick="openPage('Intubazione', this, 'green')">Inserisci eventi</button>
+		<button class="tablink" onclick="openPage('About', this, 'blue')">Inserisci paziente</button>
+		<button class="tablink" onclick="openPage('Registry', this, 'blue')">Asta</button>
 	</div>
 	<div id="Singola" class="tabcontent">
 		<?php include 'src/single-form.php';?>
