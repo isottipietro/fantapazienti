@@ -19,9 +19,6 @@
 	if (isset($_SESSION['session_id'])) {
     	$session_username = htmlspecialchars($_SESSION['session_username'], ENT_QUOTES, 'UTF-8');
     	$session_id = htmlspecialchars($_SESSION['session_id']);
-	    printf("Benvenuto in FantaRia %s, ricordati la prima regola della FantaRia: non si parla della FantaRia", $session_username);
-	    echo "<br>";
-	    printf("%s", '<a href="src/logout.php">logout</a>');
 	} else {
 		$msg = urlencode("Devi effettuare il login per poter accedere al FantaRia");
 		header("Location: /welcome.php?Message=".$msg);
