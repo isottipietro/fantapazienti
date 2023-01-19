@@ -33,10 +33,10 @@
 		<?php echo $saggezza[array_rand($saggezza)]; ?></p>
 </div>
 	<div id="nav">
-		<button class="tablink" onclick="openPage('Singola', this, 'green')" id="defaultOpen">Classifica</button>
-		<button class="tablink" onclick="openPage('Intubazione', this, 'green')">Inserisci eventi</button>
-		<button class="tablink" onclick="openPage('About', this, 'blue')">Inserisci paziente</button>
-		<button class="tablink" onclick="openPage('Registry', this, 'blue')">Asta</button>
+		<button class="tablink" onclick="openPage('Singola', this, 'white')" id="defaultOpen">Classifica</button>
+		<button class="tablink" onclick="openPage('Intubazione', this, 'white')">Inserisci eventi</button>
+		<button class="tablink" onclick="openPage('About', this, 'white')">Inserisci paziente</button>
+		<button class="tablink" onclick="openPage('Registry', this, 'white')">Asta</button>
 	</div>
 	<div id="Singola" class="tabcontent">
 		<?php include 'src/single-form.php';?>
