@@ -26,7 +26,7 @@ if (isset($_POST['login'])) {
         
         $user = $check->fetch(PDO::FETCH_ASSOC);
         
-        if (!$user || password_verify($password, $user['password']) === false) {
+        if (!$user || password_verify($password, $user['Password']) === false) {
             $msg = 'Credenziali utente errate %s';
         } else {
             session_regenerate_id();
