@@ -53,7 +53,9 @@ h2 {
   color: #cbced3;
   background-color: #354052;
   text-transform: uppercase;
+  font-weight: bold;
   padding: 20px;
+  box-shadow: 2px 0 4px 0px #4e4e4ed4, inset -2px 0 4px 0px #545454b8;
 }
 
 
