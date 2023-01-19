@@ -9,7 +9,8 @@ tabcontent[i].style.display = "none";
 // Remove the background color of all tablinks/buttons
 tablinks = document.getElementsByClassName("tablink");
 for (i = 0; i < tablinks.length; i++) {
-tablinks[i].style.backgroundColor = "";
+tablinks[i].style.color = "";
+tablinks[i].style.borderBottomStyle = "";
 }
 
 // Show the specific tab content
