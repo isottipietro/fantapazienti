@@ -48,8 +48,12 @@ h2 {
 
 #sidebar {
   float: left;
-  width: 200px;
+  width: 160px;
   height: 100%;
+  color: #cbced3;
+  background-color: #354052;
+  text-transform: uppercase;
+  padding: 20px;
 }
 
 

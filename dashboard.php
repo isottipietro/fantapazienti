@@ -23,10 +23,13 @@
 		$msg = urlencode("Devi effettuare il login per poter accedere al FantaRia");
 		header("Location: /welcome.php?Message=".$msg);
 	}?>
-	<!-- <div id="wrapper"> -->
 	<?php include 'src/sidebar.php'; ?>
 	<?php include 'src/header.php'; ?>
-		
+	<div id="dashboard">
+		<h1><?php printf("Benvenuto in FantaRia %s", $session_username);?></h1>
+		<h3>Prima regola della FantaRia: non si parla della FantaRia</h3>
+		<h3><?php echo $saggezza[array_rand($saggezza)]; ?></h3>
+	    <?php printf("%s", '<a href="src/logout.php">logout</a>');?>
 	<div id="nav">
 		<button class="tablink" onclick="openPage('Singola', this, 'green')" id="defaultOpen">Classifica</button>
 		<button class="tablink" onclick="openPage('Intubazione', this, 'green')">Inserisci eventi</button>
@@ -49,7 +52,7 @@
 		<?php include 'src/patient-registry.php' ?>
 	</div>
 
-<!-- </div> -->
+</div>
   <?php include 'src/footer.php';?>
 </body>
 </html>

@@ -1,6 +1,5 @@
 <div id="sidebar">
     <p>prova</p>
-    <p> <?php printf("Benvenuto in FantaRia %s, ricordati la prima regola della FantaRia: non si parla della FantaRia", $session_username);
-	    echo "<br>";
-	    printf("%s", '<a href="src/logout.php">logout</a>');?></p>
+    <p>prova 2</p>
+    <p>prova 3</p>
 </div>
