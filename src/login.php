@@ -27,7 +27,7 @@ if (isset($_POST['login'])) {
         $user = $check->fetch(PDO::FETCH_ASSOC);
         
         if (!$user || password_verify($password, $user['Password']) === false) {
-            $msg = 'Credenziali utente errate %s';
+            $msg = urlencode("Credenziali errate, accesso negato.");;
         } else {
             session_regenerate_id();
             $_SESSION['session_id'] = session_id();
@@ -38,5 +38,5 @@ if (isset($_POST['login'])) {
         }
     }
     
-    printf($msg, '<a href="../welcome.php">torna indietro</a>');
+    header("Location: /welcome.php?Message=".$Message);
 }
