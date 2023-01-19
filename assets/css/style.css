@@ -65,11 +65,14 @@ h2 {
 }
 #sidebar a:link {
   color: #cbced3;
+  text-decoration: none;
 }
 
 #sidebar a:visited {
   color: #cbced3;
+  text-decoration: none;
 }
+
 #sidebar a:active {
   color: red;
 }
