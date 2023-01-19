@@ -78,6 +78,6 @@ background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
   }
 
 .error {
-  color: red;
+  color: #ad343e;
     text-align: center;
 }

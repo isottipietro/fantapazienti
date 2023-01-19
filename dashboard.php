@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
 	<?php include 'etc/settings.inc'; ?>
-	<title><?php echo $site_title; ?> v.v.<?php echo $site_version; ?></title>
+	<title><?php echo $site_title; ?> v.<?php echo $site_version; ?></title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -19,7 +19,7 @@
 	if (isset($_SESSION['session_id'])) {
     	$session_username = htmlspecialchars($_SESSION['session_username'], ENT_QUOTES, 'UTF-8');
     	$session_id = htmlspecialchars($_SESSION['session_id']);
-	    printf("Benvenuto %s", $session_username);
+	    printf("Benvenuto in FantaRia %s, ricordati la prima regola della FantaRia: non si parla della FantaRia", $session_username);
 	    echo "<br>";
 	    printf("%s", '<a href="src/logout.php">logout</a>');
 	} else {
