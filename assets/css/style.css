@@ -64,11 +64,11 @@ h2 {
   padding: 10px 20px;
 }
 #sidebar a:link {
-  color: red;
+  color: #cbced3;
 }
 
 #sidebar a:visited {
-  color: red;
+  color: #cbced3;
 }
 #sidebar a:active {
   color: red;
