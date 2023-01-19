@@ -1,6 +1,6 @@
 <?php
 $site_version = '0.1';
-$site_title = 'Fantapazienti';
+$site_title = 'FantaRia';
 $log = 'true';
 
 $saggezza = array

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-	<title>Accesso a Fantapazienti</title>
+	<title>Accesso a FantaRia</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/welcome.css">
 </head>
 <body>

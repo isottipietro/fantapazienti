@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
 	<?php include 'etc/settings.inc'; ?>
-	<title><?php echo $site_title; ?></title>
+	<title><?php echo $site_title; ?> v.v.<?php echo $site_version; ?></title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -23,7 +23,7 @@
 	    echo "<br>";
 	    printf("%s", '<a href="src/logout.php">logout</a>');
 	} else {
-		$msg = urlencode("Devi effettuare il login per poter accedere al fantapazienti");
+		$msg = urlencode("Devi effettuare il login per poter accedere al FantaRia");
 		header("Location: /welcome.php?Message=".$msg);
 	}?>
 	<div id="wrapper">
