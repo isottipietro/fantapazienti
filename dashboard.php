@@ -28,6 +28,7 @@
 	}?>
 	<div id="wrapper">
 		<?php include 'src/header.php'; ?>
+		<?php include 'src/sidebar.php'; ?>
 	<div id="nav">
 		<button class="tablink" onclick="openPage('Singola', this, 'green')" id="defaultOpen">Classifica</button>
 		<button class="tablink" onclick="openPage('Intubazione', this, 'green')">Inserisci eventi</button>

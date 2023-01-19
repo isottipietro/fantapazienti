@@ -12,6 +12,7 @@ h2 {
   font-size: large;
 }
 
+/* header */
 #header {
   height: 60px;
   color: #5c5c5c;
@@ -22,8 +23,8 @@ h2 {
     padding: 20px;
     float: right;
     border-left-style: solid;
-    border-width: 0,5px;
-    border-color: #5c5c5c;
+    border-width: 0.3px;
+    border-color: #38383857;
 }
 
 #header h1 {
@@ -36,6 +37,14 @@ h2 {
 #header h3 {
   font-weight: 100;
   font-style: italic;
+}
+
+/* sidebar */
+
+#sidebar {
+  float: left;
+  width: 400px;
+  height: 100%;
 }
 
 
