@@ -57,8 +57,11 @@ h2 {
   background-color: #354052;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 0 20px;
   box-shadow: 2px 0 4px 0px #4e4e4ed4, inset -2px 0 4px 0px #545454b8;
+}
+
+#sidebar p {
+  padding: 0 20px;
 }
 
 
