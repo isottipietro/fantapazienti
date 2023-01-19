@@ -77,6 +77,9 @@ h2 {
   font-size: 17px;
   width: 15%;
   background-color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #444;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
