@@ -26,7 +26,7 @@
 		$msg = urlencode("Devi effettuare il login per poter accedere al FantaRia");
 		header("Location: /welcome.php?Message=".$msg);
 	}?>
-	<div id="wrapper">
+	<!-- <div id="wrapper"> -->
 	<?php include 'src/sidebar.php'; ?>
 	<?php include 'src/header.php'; ?>
 		
@@ -52,7 +52,7 @@
 		<?php include 'src/patient-registry.php' ?>
 	</div>
 
-</div>
+<!-- </div> -->
   <?php include 'src/footer.php';?>
 </body>
 </html>
