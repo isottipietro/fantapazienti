@@ -25,6 +25,7 @@
 	}?>
 	<?php include 'src/sidebar.php'; ?>
 	<?php include 'src/header.php'; ?>
+	<div id="page">
 	<div id="dashboard">
 		<h1><?php printf("Ciao %s, benvenuto in FantaRia", $session_username);?></h1>
 		<p>Prima regola della FantaRia: non si parla della FantaRia<br>
@@ -54,5 +55,6 @@
 
 </div>
   <?php include 'src/footer.php';?>
+</div>
 </body>
 </html>
