@@ -17,7 +17,7 @@ if (isset($_POST['login'])) {
         $query = "
             SELECT ID, Password
             FROM infermieri
-            WHERE username = :username
+            WHERE ID = :username
         ";
         
         $check = $pdo->prepare($query);
