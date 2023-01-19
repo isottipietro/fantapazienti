@@ -66,6 +66,7 @@ h2 {
 #nav {
   display: flex;
   padding: 0 50px;
+  background-color: white;
 }
 
 .tablink {
@@ -150,10 +151,12 @@ fieldset {
   display: flow-root;
   color: #303030;
   height: 100%;
+  background-color: #ecf2f7;
+
 }
 
 #dashboard h1 {
-  margin: 40px 0 0 0;
+  margin: 5px 0;
   font-weight: unset;
 }
 
@@ -167,5 +170,6 @@ fieldset {
 }
 
 #dashboard-head {
-  padding:0 50px;
+  padding: 50px;
+  background-color: white;
 }
