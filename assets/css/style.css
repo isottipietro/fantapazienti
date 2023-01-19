@@ -85,7 +85,6 @@ h2 {
 
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
-  height: 100%;
   display: none;
   padding-top: 10px;
   margin: auto;
