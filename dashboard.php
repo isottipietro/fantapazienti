@@ -32,9 +32,9 @@
 		<p>Prima regola della FantaRia: non si parla della FantaRia<br>Seconda regola della FantaRia: <?php echo $saggezza[array_rand($saggezza)]; ?></p>
 </div>
 	<div id="nav">
-		<button class="tablink" onclick="openPage('Singola', this, 'white')" id="defaultOpen">Classifica</button>
-		<button class="tablink" onclick="openPage('Intubazione', this, 'white')">Inserisci eventi</button>
-		<button class="tablink" onclick="openPage('About', this, 'white')">Inserisci paziente</button>
+		<button class="tablink" onclick="openPage('Singola', this, 'white')" id="defaultOpen">Reparto</button>
+		<button class="tablink" onclick="openPage('Intubazione', this, 'white')">Classifica</button>
+		<button class="tablink" onclick="openPage('About', this, 'white')">Qualcosa</button>
 		<button class="tablink" onclick="openPage('Registry', this, 'white')">Asta</button>
 	</div>
 	<div id="Singola" class="tabcontent">
