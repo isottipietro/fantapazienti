@@ -13,8 +13,8 @@
     ?></div>
     <form action="src/login.php" method="post">
       <div class="container">
-        <label for="username"><b>Matricola</b></label>
-        <input type="text" placeholder="Inserisci la tua matricola" name="username" required>
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Inserisci il tuo username" name="username" required>
         <br />
         <label for="password"><b>Password</b></label>
         <input type="password" placeholder="Inserisci la tua password" name="password" required>
