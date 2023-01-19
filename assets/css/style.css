@@ -18,6 +18,10 @@ h2 {
   color: #5c5c5c;
 }
 
+.header-button {
+    display: block;
+}
+
 #header h1 {
   font-size: xxx-large;
   text-transform: uppercase;
