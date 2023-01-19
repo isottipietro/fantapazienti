@@ -51,7 +51,7 @@ h2 {
 
 #sidebar {
   float: left;
-  width: 160px;
+  width: 200px;
   height: 100%;
   color: #cbced3;
   background-color: #354052;
@@ -61,7 +61,7 @@ h2 {
 }
 
 #sidebar p {
-  padding: 0 20px;
+  padding: 10px 20px;
 }
 
 
