@@ -29,8 +29,7 @@
 	<div id="dashboard">
 		<div id="dashboard-head">
 		<h1><?php printf("Ciao %s, benvenuto in FantaRia", $session_username);?></h1>
-		<p>Prima regola della FantaRia: non si parla della FantaRia<br>
-		<?php echo $saggezza[array_rand($saggezza)]; ?></p>
+		<p>Prima regola della FantaRia: non si parla della FantaRia<br>Seconda regola della FantaRia: <?php echo $saggezza[array_rand($saggezza)]; ?></p>
 </div>
 	<div id="nav">
 		<button class="tablink" onclick="openPage('Singola', this, 'white')" id="defaultOpen">Classifica</button>

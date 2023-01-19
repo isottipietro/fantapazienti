@@ -155,6 +155,10 @@ fieldset {
   font-weight: unset;
 }
 
+#dashboard p {
+  font-size: 0.8em;
+}
+
 #page {
   height: calc(100% - 60px);
   margin-left: 200px;
