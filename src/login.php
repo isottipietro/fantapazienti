@@ -31,7 +31,7 @@ if (isset($_POST['login'])) {
         } else {
             session_regenerate_id();
             $_SESSION['session_id'] = session_id();
-            $_SESSION['session_user'] = $user['username'];
+            $_SESSION['session_user'] = $user['Nome'];
             
             header('Location: /index.php');
             exit;
