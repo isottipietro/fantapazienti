@@ -15,7 +15,7 @@ if (isset($_POST['login'])) {
         $msg = 'Inserisci username e password %s';
     } else {
         $query = "
-            SELECT ID, Password
+            SELECT ID, Password, Nome
             FROM infermieri
             WHERE ID = :username
         ";
@@ -27,7 +27,7 @@ if (isset($_POST['login'])) {
         $user = $check->fetch(PDO::FETCH_ASSOC);
         
         if (!$user || password_verify($password, $user['Password']) === false) {
-            $msg = urlencode("Credenziali errate, accesso negato.");;
+            $msg = urlencode("Credenziali errate, accesso negato.");
         } else {
             session_regenerate_id();
             $_SESSION['session_id'] = session_id();
