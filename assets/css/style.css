@@ -14,12 +14,16 @@ h2 {
 
 #header {
   height: 60px;
-  padding: 20px 0 0 20px;
   color: #5c5c5c;
 }
 
 .header-button {
-    display: block;
+    display: table-cell;
+    padding: 20px;
+    float: right;
+    border-left-style: solid;
+    border-width: 0,5px;
+    border-color: #5c5c5c;
 }
 
 #header h1 {
