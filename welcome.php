@@ -5,6 +5,10 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/welcome.css">
 </head>
 <body>
+<?php if (isset($_SESSION['session_id'])) {
+    header('Location: /dashboard.php');
+    exit;
+} ?>
   <div class="box">
     <a href="/"><img src="assets/images/logo.png" style="width: 70px; margin-left: auto; margin-right: auto; display: block;"></a>
     <div class="error"><?php if(isset($_GET['Message'])){
