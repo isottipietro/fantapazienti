@@ -63,14 +63,15 @@ h2 {
 #sidebar p {
   padding: 10px 20px;
 }
+#sidebar a:link a:visited {
+  color: red;
+}
 
 #sidebar a:active {
   color: red;
 }
 
-#sidebar a:visited a:link {
-  color: red;
-}
+
 
 /* Style tab links */
 #nav {
