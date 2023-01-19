@@ -6,7 +6,7 @@
 </head>
 <body>
   <div class="box">
-    <img src="assets/images/logo.png" style="width: 70px; margin-left: auto; margin-right: auto; display: block;">
+    <a href="/"><img src="assets/images/logo.png" style="width: 70px; margin-left: auto; margin-right: auto; display: block;"></a>
     <div class="error"><?php if(isset($_GET['Message'])){
       echo $_GET['Message'];
     }
