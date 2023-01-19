@@ -1,5 +1,5 @@
 <div id="header">
-  <img src="assets/images/logo.png" style="float: left; margin-right: 10px; width: 100px;">
-  <h1>FantaRia</h1>
-  <h3><?php echo $saggezza[array_rand($saggezza)]; ?></h3>
+  <div class="header-button">1</div>
+  <div class="header-button">2</div>
+  <div class="header-button">3</div>
 </div>
