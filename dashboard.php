@@ -19,7 +19,7 @@
 	if (isset($_SESSION['session_id'])) {
     	$session_user = htmlspecialchars($_SESSION['session_user'], ENT_QUOTES, 'UTF-8');
     	$session_id = htmlspecialchars($_SESSION['session_id']);
-	    printf("Benvenuto %s", $session_user);
+	    printf("Benvenuto %s", $session_username);
 	    echo "<br>";
 	    printf("%s", '<a href="src/logout.php">logout</a>');
 	} else {

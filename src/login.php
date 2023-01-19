@@ -31,7 +31,8 @@ if (isset($_POST['login'])) {
         } else {
             session_regenerate_id();
             $_SESSION['session_id'] = session_id();
-            $_SESSION['session_user'] = $user['Nome'];
+            $_SESSION['session_username'] = $user['Nome'];
+            $_SESSION['session_userid'] = $user['ID'];
             
             header('Location: /dashboard.php');
             exit;
