@@ -26,9 +26,9 @@
 	<?php include 'src/sidebar.php'; ?>
 	<?php include 'src/header.php'; ?>
 	<div id="dashboard">
-		<h1><?php printf("Benvenuto in FantaRia %s", $session_username);?></h1>
-		<p>Prima regola della FantaRia: non si parla della FantaRia</p>
-		<p><?php echo $saggezza[array_rand($saggezza)]; ?></p>
+		<h1><?php printf("Ciao %s, benvenuto in FantaRia", $session_username);?></h1>
+		<p>Prima regola della FantaRia: non si parla della FantaRia<br>
+		<?php echo $saggezza[array_rand($saggezza)]; ?></p>
 	    <?php printf("%s", '<a href="src/logout.php">logout</a>');?>
 	<div id="nav">
 		<button class="tablink" onclick="openPage('Singola', this, 'green')" id="defaultOpen">Classifica</button>
