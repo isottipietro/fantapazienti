@@ -54,7 +54,7 @@ h2 {
   background-color: #354052;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 20px;
+  padding: 0 20px;
   box-shadow: 2px 0 4px 0px #4e4e4ed4, inset -2px 0 4px 0px #545454b8;
 }
 
@@ -129,7 +129,6 @@ h2 {
 
 #footer-container {
   font-size: 0.8em;
-  height: 75px;
   padding: 0 10px;
   position: absolute;
   bottom: 0;
@@ -142,3 +141,7 @@ fieldset {
     border-width: 1px;
 }
 
+#dashboard {
+  padding: 50px;
+  display: table;
+}
