@@ -1,9 +1,6 @@
 <?php
 $site_version = '0.1';
 $site_title = 'Fantapazienti';
-$site_description = 'Piccolo strumento per stampare le etichette delle pompe siringhe in modo sicuro, facile e veloce!';
-$site_author = 'Pietro Isotti';
-$site_image = 'assets/images/header.jpg';
 $log = 'true';
 
 $saggezza = array
