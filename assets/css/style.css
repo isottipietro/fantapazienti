@@ -89,6 +89,8 @@ h2 {
   padding-top: 10px;
   margin: auto;
   background-color: #ecf2f7;
+  border-top-style: solid;
+    border-width: 0.3px;
 }
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
@@ -144,7 +146,7 @@ fieldset {
 
 #dashboard {
   display: flow-root;
-  color: #5c5c5c;
+  color: #303030;
   height: 100%;
 }
 
