@@ -34,8 +34,8 @@
 	<div id="nav">
 		<button class="tablink" onclick="openPage('Singola', this, 'white')" id="defaultOpen">Reparto</button>
 		<button class="tablink" onclick="openPage('Intubazione', this, 'white')">Classifica</button>
-		<button class="tablink" onclick="openPage('About', this, 'white')">Qualcosa</button>
-		<button class="tablink" onclick="openPage('Registry', this, 'white')">Asta</button>
+		<button class="tablink" onclick="openPage('About', this, 'white')">Proiezioni</button>
+		<button class="tablink" onclick="openPage('Registry', this, 'white')">Regolamento</button>
 	</div>
 	<div id="Singola" class="tabcontent">
 		<?php include 'src/single-form.php';?>
