@@ -21,6 +21,9 @@ h2 {
 #header {
   height: 60px;
   color: #5c5c5c;
+  border-bottom-style: solid;
+  border-width: 0.3px;
+  border-color: #38383857;
 }
 
 .header-button {
