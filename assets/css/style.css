@@ -125,7 +125,6 @@ h2 {
   padding: 0 10px;
   position: absolute;
   bottom: 0;
-  margin-left: 200px;
 }
 
 fieldset {
@@ -135,12 +134,21 @@ fieldset {
 }
 
 #dashboard {
-  padding: 0 50px;
   display: flow-root;
   color: #5c5c5c;
+  height: 100%;
 }
 
 #dashboard h1 {
   margin: 5px 0;
   font-weight: unset;
+}
+
+#page {
+  height: calc(100% - 60px);
+  margin-left: 200px;
+}
+
+#dashboard-head {
+  padding:0 50px;
 }
