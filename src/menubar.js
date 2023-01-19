@@ -16,7 +16,8 @@ tablinks[i].style.backgroundColor = "";
 document.getElementById(pageName).style.display = "block";
 
 // Add the specific color to the button used to open the tab content
-elmnt.style.backgroundColor = color;
+elmnt.style.color = "#2c2c2c";
+elmnt.style.borderBottomStyle = "solid";
 }
 
 // Get the element with id="defaultOpen" and click on it
