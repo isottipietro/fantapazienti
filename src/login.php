@@ -38,5 +38,5 @@ if (isset($_POST['login'])) {
         }
     }
     
-    header("Location: /welcome.php?Message=".$Message);
+    header("Location: /welcome.php?Message=".$msg);
 }
