@@ -7,10 +7,10 @@
 <body>
   <div class="box">
     <img src="assets/images/logo.png" style="width: 70px; margin-left: auto; margin-right: auto; display: block;">
-    <span class="error"><?php if(isset($_GET['Message'])){
+    <div class="error"><?php if(isset($_GET['Message'])){
       echo $_GET['Message'];
     }
-    ?></span>
+    ?></div>
     <form action="src/login.php" method="post">
       <div class="container">
         <label for="username"><b>Matricola</b></label>
