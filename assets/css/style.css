@@ -80,8 +80,6 @@ h2 {
 .tabcontent {
   display: none;
   padding-top: 10px;
-  height: 100%;
-  width: 1000px;
   margin: auto;
 }
 /* Style the button that is used to open and close the collapsible content */
@@ -127,6 +125,9 @@ h2 {
   font-size: 0.8em;
   height: 75px;
   padding: 0 10px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 20px;
 }
 
 fieldset {
