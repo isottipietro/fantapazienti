@@ -1,5 +1,7 @@
 <div id="sidebar">
-    <p>prova</p>
-    <p>prova 2</p>
-    <p>prova 3</p>
+    <p>profilo</p>
+    <p>asta</p>
+    <p>eventi</p>
+    <p>pazienti</p>
+    <p>invita</p>
 </div>

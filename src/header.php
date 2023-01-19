@@ -1,5 +1,6 @@
 <div id="header">
-  <div class="header-button">1</div>
-  <div class="header-button">2</div>
-  <div class="header-button"><a href="src/logout.php">esci</a></div>
+  <div class="header-button"><a href="src/logout.php">ESCI</a></div>
+  <div class="header-button">PAZIENTI</div>
+  <div class="header-button">EVENTI</div>
+  <div class="header-button"><img source="/assets/images/logo.png"></div>
 </div>
