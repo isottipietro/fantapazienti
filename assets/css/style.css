@@ -150,7 +150,7 @@ h2 {
 #footer-container {
   font-size: 0.55em;
   padding: 0 10px;
-  width: 100%;
+  width: calc(100% - 200px);
   position: absolute;
   bottom: 0;
 }
