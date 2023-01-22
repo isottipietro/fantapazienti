@@ -151,8 +151,9 @@ h2 {
 }
 
 #footer-container {
-  font-size: 0.8em;
+  font-size: 0.55em;
   padding: 0 10px;
+  width: 100%;
   position: absolute;
   bottom: 0;
 }

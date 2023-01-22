@@ -22,7 +22,8 @@
 	} else {
 		$msg = urlencode("Devi effettuare il login per poter accedere al FantaRia");
 		header("Location: /welcome.php?Message=".$msg);
-	}?>
+	}
+	$pageName = "Dashboard";?>
 	<?php include 'src/sidebar.php'; ?>
 	<?php include 'src/header.php'; ?>
 	<div id="page">
