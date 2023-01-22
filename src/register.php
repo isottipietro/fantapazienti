@@ -33,7 +33,7 @@ if (isset($_POST['register'])) {
         ";
         
         $check = $pdo->prepare($query);
-        $check->bindParam(':username', $username, PDO::PARAM_STR);
+        $check->bindParam(':ID', $username, PDO::PARAM_STR);
         $check->execute();
         
         $user = $check->fetchAll(PDO::FETCH_ASSOC);
@@ -43,12 +43,12 @@ if (isset($_POST['register'])) {
         } else {
             $query = "
                 INSERT INTO infermieri
-                VALUES (:username, :password)
+                VALUES (:ID, :Password)
             ";
         
             $check = $pdo->prepare($query);
-            $check->bindParam(':username', $username, PDO::PARAM_STR);
-            $check->bindParam(':password', $password_hash, PDO::PARAM_STR);
+            $check->bindParam(':ID', $username, PDO::PARAM_STR);
+            $check->bindParam(':Password', $password_hash, PDO::PARAM_STR);
             $check->execute();
             
             if ($check->rowCount() > 0) {
