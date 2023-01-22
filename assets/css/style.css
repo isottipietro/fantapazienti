@@ -63,20 +63,15 @@ h2 {
 #sidebar p {
   padding: 10px 20px;
 }
-#sidebar a:link {
+
+#sidebar a:link a:visited a:active{
   color: #cbced3;
   text-decoration: none;
 }
 
-#sidebar a:visited {
-  color: #cbced3;
-  text-decoration: none;
+#sidebar p.current {
+  background-color: #666;
 }
-
-#sidebar a:active {
-  color: red;
-}
-
 
 
 /* Style tab links */
