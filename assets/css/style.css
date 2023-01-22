@@ -64,12 +64,12 @@ h2 {
   padding: 10px 20px;
 }
 
-#sidebar a:link a:visited a:active{
+#sidebar a:link, a:visited, a:active{
   color: #cbced3;
   text-decoration: none;
 }
 
-#sidebar p.current {
+#current {
   background-color: #666;
 }
 
