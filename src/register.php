@@ -42,7 +42,7 @@ if (isset($_POST['register'])) {
             $msg = 'Username già in uso %s';
         } else {
             $query = "
-                INSERT INTO infermieri
+                INSERT INTO infermieri (ID, Password)
                 VALUES (:ID, :Password)
             ";
         
