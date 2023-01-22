@@ -70,7 +70,9 @@ h2 {
 }
 
 #current {
-  background-color: #666;
+  background-color: #272b36;
+    border-left-style: solid;
+    border-left-color: blue;
 }
 
 
