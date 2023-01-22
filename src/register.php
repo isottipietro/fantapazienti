@@ -33,7 +33,7 @@ if (isset($_POST['register'])) {
         ";
         
         $check = $pdo->prepare($query);
-        $check->bindParam(':ID', $username, PDO::PARAM_STR);
+        $check->bindParam(':username', $username, PDO::PARAM_STR);
         $check->execute();
         
         $user = $check->fetchAll(PDO::FETCH_ASSOC);
