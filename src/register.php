@@ -27,9 +27,9 @@ if (isset($_POST['register'])) {
         $password_hash = password_hash($password, PASSWORD_BCRYPT);
 
         $query = "
-            SELECT id
-            FROM users
-            WHERE username = :username
+            SELECT ID
+            FROM infermieri
+            WHERE ID = :username
         ";
         
         $check = $pdo->prepare($query);
@@ -42,8 +42,8 @@ if (isset($_POST['register'])) {
             $msg = 'Username già in uso %s';
         } else {
             $query = "
-                INSERT INTO users
-                VALUES (0, :username, :password)
+                INSERT INTO infermieri
+                VALUES (:username, :password)
             ";
         
             $check = $pdo->prepare($query);
