@@ -7,6 +7,9 @@
     <h1>Registrazione</h1>
     <input type="text" id="username" placeholder="Username" name="username" maxlength="50" required>
     <input type="password" id="password" placeholder="Password" name="password" required>
+    <input type="text" id="nome" placeholder="Nome" name="nome" required>
+    <input type="text" id="cognome" placeholder="Cognome" name="cognome" required>
+    <input type="email" id="email" placeholder="E-mail" name="email" required>
     <button type="submit" name="register">Registrati</button>
   </form>
 
