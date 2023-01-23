@@ -21,8 +21,8 @@ $('form').on('submit', function (e) {
 
   $.ajax({
     type: 'post',
-    url: 'src/register.php',
-    data: $('register').serialize(),
+    url: '/src/register.php',
+    data: $('form').serialize(),
     success: function (data) {
       alert(data.message);
       location.reload();
