@@ -1,5 +1,5 @@
 <?php
-require_once('/src/database.php');
+require_once('src/database.php');
 
 if (isset($_POST['register'])) {
     $username = $_POST['username'] ?? '';
