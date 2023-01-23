@@ -3,7 +3,7 @@
 <?php include 'src/sidebar.php'; ?>
 <?php include 'src/header.php'; ?>
 <div id="page">
-  <form method="post" action="src/register.php" name="register">
+  <form method="post" action="src/register.php" name="register" id="register">
     <h1>Registrazione</h1>
     <input type="text" id="username" placeholder="Username" name="username" maxlength="50" required>
     <input type="password" id="password" placeholder="Password" name="password" required>
