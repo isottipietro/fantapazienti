@@ -27,9 +27,10 @@ $('form').on('submit', function (e) {
       alert(data.message);
       location.reload();
     }
-    error: function (xhr, status, error)
+    error: function (xhr, status, error) {
     alert(xhr.responseJSON.message);
     location.reload();
+    }
   });
 
 });
