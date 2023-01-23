@@ -13,7 +13,7 @@ $('form').on('submit', function (e) {
   $.ajax({
     type: 'post',
     url: 'src/register.php',
-    data: $('form').serialize(),
+    data: $('register').serialize(),
     success: function (data) {
       alert(data.message);
       location.reload();
