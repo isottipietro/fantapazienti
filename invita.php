@@ -6,7 +6,7 @@
 <script>
 $(function () {
 
-$('form').on('submit', function (e) {
+$('register').on('submit', function (e) {
 
   e.preventDefault();
 
@@ -28,7 +28,7 @@ $('form').on('submit', function (e) {
 
 });
 </script>
-  <form method="post" action="src/register.php">
+  <form method="post" action="src/register.php" id="register">
     <h1>Registrazione</h1>
     <input type="text" id="username" placeholder="Username" name="username" maxlength="50" required>
     <input type="password" id="password" placeholder="Password" name="password" required>
