@@ -1,5 +1,5 @@
 <?php
-require_once('database.php');
+require_once('/src/database.php');
 
 if (isset($_POST['register'])) {
     $username = $_POST['username'] ?? '';
@@ -38,12 +38,10 @@ if (isset($_POST['register'])) {
         $check->execute();
            
         if ($check->rowCount() > 0) {
-            $msg = 'Registrazione eseguita con successo';
             http_response_code(200);
             echo json_encode(array("message" => "The request was successful"));
         } else {
             http_response_code(400);
-            $msg = 'Problemi con l\'inserimento dei dati %s';
             echo json_encode(array("message" => "There was an error processing the request"));
         }
     }
