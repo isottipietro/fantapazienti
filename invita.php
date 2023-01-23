@@ -6,14 +6,14 @@
 <script>
 $(function () {
 
-$('register').on('submit', function (e) {
+$('form').on('submit', function (e) {
 
   e.preventDefault();
 
   $.ajax({
     type: 'post',
     url: 'src/register.php',
-    data: $('register').serialize(),
+    data: $('form').serialize(),
     success: function (data) {
       alert(data.message);
       location.reload();
@@ -28,7 +28,7 @@ $('register').on('submit', function (e) {
 
 });
 </script>
-  <form method="post" action="src/register.php" name="register" id="register">
+  <form method="post" action="src/register.php">
     <h1>Registrazione</h1>
     <input type="text" id="username" placeholder="Username" name="username" maxlength="50" required>
     <input type="password" id="password" placeholder="Password" name="password" required>
