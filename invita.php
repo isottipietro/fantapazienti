@@ -24,7 +24,8 @@ $('form').on('submit', function (e) {
     url: 'src/register.php',
     data: $('form').serialize(),
     success: function () {
-      alert('form was submitted');
+      alert('Infermiero inserito correttamente nel mondo della FantaRia');
+      location.reload();
     }
   });
 
