@@ -1,5 +1,5 @@
 <?php
-require_once('src/database.php');
+require_once('database.php');
 
 if (isset($_POST['register'])) {
     $username = $_POST['username'] ?? '';
@@ -48,5 +48,4 @@ if (isset($_POST['register'])) {
         }
     }
     
-    printf($msg, '<a href="../register.html">torna indietro</a>');
 }   

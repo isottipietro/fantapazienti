@@ -30,7 +30,7 @@ $('form').on('submit', function (e) {
     error: function (xhr, status, error) {
      alert(xhr.responseJSON.message);
     location.reload();
-    }
+    },
   });
 
 });
