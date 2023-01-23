@@ -35,7 +35,7 @@ $('register').on('submit', function (e) {
     <input type="text" id="nome" placeholder="Nome" name="nome" required>
     <input type="text" id="cognome" placeholder="Cognome" name="cognome" required>
     <input type="email" id="email" placeholder="E-mail" name="email" required>
-    <button type="submit" name="register">Registrati</button>
+    <button type="submit" name="submit">Registrati</button>
   </form>
   
 
