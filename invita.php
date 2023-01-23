@@ -3,7 +3,7 @@
 <?php include 'src/sidebar.php'; ?>
 <?php include 'src/header.php'; ?>
 <div id="page">
-  <form method="post" action="src/register.php">
+  <form method="post" action="src/register.php" name="register">
     <h1>Registrazione</h1>
     <input type="text" id="username" placeholder="Username" name="username" maxlength="50" required>
     <input type="password" id="password" placeholder="Password" name="password" required>
@@ -15,17 +15,21 @@
   <script>
 $(function () {
 
-$('form').on('submit', function (e) {
+$('register').on('submit', function (e) {
 
   e.preventDefault();
 
   $.ajax({
     type: 'post',
-    url: '/src/register.php',
-    data: $('form').serialize(),
+    url: 'src/register.php',
+    data: $('register').serialize(),
     success: function (data) {
       alert(data.message);
       location.reload();
+    },
+    error: function (xhr, status, error) {
+     alert(xhr.responseJSON.message);
+    location.reload();
     },
   });
 
