@@ -26,9 +26,9 @@ $('form').on('submit', function (e) {
     success: function (data) {
       alert(data.message);
       location.reload();
-    }
+    },
     error: function (xhr, status, error) {
-    alert(xhr.responseJSON.message);
+     alert(xhr.responseJSON.message);
     location.reload();
     }
   });
