@@ -12,6 +12,29 @@
     <input type="email" id="email" placeholder="E-mail" name="email" required>
     <button type="submit" name="register">Registrati</button>
   </form>
+  <script>
+$(document).ready(function() {
+    $('.delbtn').click(function(){
+      var clickBtnValue = $(this).val();
+        $.ajax({
+          type: "POST",
+          url: "src/register.php",
+          data: { delete: clickBtnValue }
+        }).done(function( msg ) {
+          alert( msg );
+          location.reload();
+        });
+      }
+    );
+
+  $(function() {
+       $('#NewPatient').ajaxForm(function() {
+           alert("Infermiero inserito correttamente nel mondo FantaRia");
+           location.reload();
+       });
+     });
+});
+</script>
 
   <?php include 'src/footer.php';?>
 </div>
