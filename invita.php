@@ -23,10 +23,13 @@ $('form').on('submit', function (e) {
     type: 'post',
     url: 'src/register.php',
     data: $('form').serialize(),
-    success: function () {
-      alert('Infermiero inserito correttamente nel mondo della FantaRia');
+    success: function (data) {
+      alert(data.message);
       location.reload();
     }
+    error: function (xhr, status, error)
+    alert(xhr.responseJSON.message);
+    location.reload();
   });
 
 });
