@@ -1,7 +1,7 @@
 <?php
 require_once('database.php');
 
-if (isset($_POST['submit'])) {
+if (isset($_POST['username'])) {
     $username = $_POST['username'] ?? '';
     $password = $_POST['password'] ?? '';
     $nome = $_POST['nome'] ?? '';
