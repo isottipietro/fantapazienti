@@ -6,37 +6,37 @@ if (isset($_POST['register'])) {
     $password = $_POST['password'] ?? '';
     $password_hash = password_hash($password, PASSWORD_BCRYPT);
 
-        $query = "
-            SELECT ID
-            FROM infermieri
-            WHERE ID = :username
+    $query = "
+        SELECT ID
+        FROM infermieri
+        WHERE ID = :username
         ";
+        
+    $check = $pdo->prepare($query);
+    $check->bindParam(':username', $username, PDO::PARAM_STR);
+    $check->execute();
+        
+    $user = $check->fetchAll(PDO::FETCH_ASSOC);
+        
+    if (count($user) > 0) {
+        $msg = 'Username già in uso %s';
+    } else {
+        $query = "
+            INSERT INTO infermieri (ID, Password)
+            VALUES (:username, :password)
+            ";
         
         $check = $pdo->prepare($query);
         $check->bindParam(':username', $username, PDO::PARAM_STR);
+        $check->bindParam(':password', $password_hash, PDO::PARAM_STR);
         $check->execute();
-        
-        $user = $check->fetchAll(PDO::FETCH_ASSOC);
-        
-        if (count($user) > 0) {
-            $msg = 'Username già in uso %s';
+           
+        if ($check->rowCount() > 0) {
+            $msg = 'Registrazione eseguita con successo';
         } else {
-            $query = "
-                INSERT INTO infermieri (ID, Password)
-                VALUES (:ID, :Password)
-            ";
-        
-            $check = $pdo->prepare($query);
-            $check->bindParam(':ID', $username, PDO::PARAM_STR);
-            $check->bindParam(':Password', $password_hash, PDO::PARAM_STR);
-            $check->execute();
-            
-            if ($check->rowCount() > 0) {
-                $msg = 'Registrazione eseguita con successo';
-            } else {
-                $msg = 'Problemi con l\'inserimento dei dati %s';
-            }
+            $msg = 'Problemi con l\'inserimento dei dati %s';
         }
+    }
     
     printf($msg, '<a href="../register.html">torna indietro</a>');
-}
+}   
